@@ -630,7 +630,7 @@ export default function App() {
         <WhereToNextSection />
       </main>
       <Footer />
-      <BottomNav active={activeCategory} setActive={setActiveCategory} />
+      {/* <BottomNav active={activeCategory} setActive={setActiveCategory} /> */}
 
       {/* Background grain/noise effect */}
       <div className="fixed inset-0 pointer-events-none opacity-[0.03] z-[100] bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />

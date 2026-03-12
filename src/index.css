@@ -19,6 +19,15 @@
   .text-stroke {
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
   }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 @keyframes rotate-text {
